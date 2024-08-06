@@ -5,3 +5,5 @@ CASE
   ELSE month/3
 END
 AS res FROM quarterof;
+
+SELECT month, (month + 2) / 3 AS res FROM quarterof;
