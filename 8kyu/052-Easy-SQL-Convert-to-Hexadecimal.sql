@@ -1,2 +1,2 @@
 /*  SQL  */
-SELECT arms, legs FROM monsters;
+SELECT to_hex(arms) AS arms, to_hex(legs) AS legs FROM monsters;
